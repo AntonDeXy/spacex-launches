@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import gql from 'graphql-tag'
 import LaunchItem from './LaunchItem'
 import MissionKey from './MissionKey'

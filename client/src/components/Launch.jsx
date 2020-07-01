@@ -10,7 +10,6 @@ const LAUNCH_QUERY = gql`
       flight_number
       mission_name
       launch_year
-      launch_date_local
       launch_success
       rocket {
         rocket_id
@@ -36,7 +35,6 @@ export class Launch extends Component {
               flight_number,
               mission_name,
               launch_year,
-              launch_date_local,
               launch_success,
               rocket: { rocket_id, rocket_name, rocket_type },
             } = data.launch
