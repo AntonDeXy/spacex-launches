@@ -9,9 +9,5 @@ npm run dev
 ## On Heroku:
 in project dir:
 ```bash
-cd client && npm run build
-```
-
-```bash
-cd .. && npm start
+npm start
 ```
